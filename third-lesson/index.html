@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Domashka-third</title>
+	<link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+<form class="form"></form>
+<form action="//maximumstart.herokuapp.com/register" method="GET">
+	<h1>Регистрация</h1>
+	<span>*Все поля обязательны к заполнению</span>
+	<p>
+		<label for="name-field">Имя</label>
+		<input type="text" id="name-field" name="name-field">
+	</p>
+	<p>
+		<label for="surname-field">Фамилия</label>
+		<input type="text" id="surname-field" name="surname-field">
+	</p>
+	<p>
+		<label for="phone-field">Телефон</label>
+		<input type="tel" placeholder="+38()___-__-__">
+	</p>
+	<p>
+		<label for="color-field">Люмимый цвет</label>
+		<input type="color-field" id="color-fiekd">
+	</p>
+	<p>
+		<label for="date-field">Сегодняшнее число</label>
+		<input type="date" id="date-field">
+	</p>
+	<p>
+		<label for="password">Пароль</label>
+		<input type="password" id="password">
+	</p>
+	<p>
+		<input type="radio" name="gender" value="Мальчик" id="input_number_Мальчик">
+	    <p>
+		<label for="input_number_Мальчик">Мальчик</label>
+	    </p>
+	</p>
+	<p>
+		<input type="radio" name="gender" value="Девочка" id="input_number_Девочка">
+	    <p>
+		<label for="input_number_Девочка">Девочка</label>
+	    </p>
+	</p>
+	<p>
+		<input type="radio" name="gender" value="Не определился" id="input number Не определился">
+	    <p>
+		<label for="input number Не определился">Не определился</label>
+	    </p>
+	</p>
+	<p>
+		<label for="message-textarea">Сообщение</label>
+	    <p>
+		<textarea  id="message-textarea" cols="30" rows="20"></textarea>
+	    </p>	
+	</p>
+	<p>
+		<button>Отправить</button>
+	</p>
+</form>
+</body>
+</html>
