@@ -4,63 +4,61 @@
 	<meta charset="UTF-8">
 	<title>Domashka-third</title>
 	<link rel="stylesheet" href="form.css">
-
 </head>
 <body>
-<form class="form"></form>
-<form action="//maximumstart.herokuapp.com/register" method="GET">
+<form class="form" action="https//:maximumstart.herokuapp.com/register" method="GET">
 	<h1>Регистрация</h1>
 	<span>*Все поля обязательны к заполнению</span>
 	<p>
-		<label for="name-field">Имя</label>
-		<input type="text" id="name-field" name="name-field">
+		<label for="name">Имя</label>
+		<input type="text" required id="name" name="name">
 	</p>
 	<p>
-		<label for="surname-field">Фамилия</label>
-		<input type="text" id="surname-field" name="surname-field">
+		<label for="surname">Фамилия</label>
+		<input type="text" id="surname" name="surname" required>
 	</p>
 	<p>
-		<label for="phone-field">Телефон</label>
-		<input type="tel" placeholder="+38()___-__-__">
+		<label for="phone">Телефон</label>
+		<input type="tel" placeholder="+38()___-__-__" id="phone" required>
 	</p>
 	<p>
-		<label for="color-field">Люмимый цвет</label>
-		<input type="color-field" id="color-fiekd">
+		<label for="color">Люмимый цвет</label>
+		<input type="color"  id="color" required>
 	</p>
 	<p>
-		<label for="date-field">Сегодняшнее число</label>
-		<input type="date" id="date-field">
+		<label for="date">Сегодняшнее число</label>
+		<input type="date" id="date" required>
 	</p>
 	<p>
 		<label for="password">Пароль</label>
-		<input type="password" id="password">
+		<input type="password" id="password" required>
 	</p>
 	<p>
-		<input type="radio" name="gender" value="Мальчик" id="input_number_Мальчик">
-	    <p>
-		<label for="input_number_Мальчик">Мальчик</label>
-	    </p>
+		<input type="radio" name="gender" value="Мальчик" id="input_number_1">
 	</p>
 	<p>
-		<input type="radio" name="gender" value="Девочка" id="input_number_Девочка">
-	    <p>
-		<label for="input_number_Девочка">Девочка</label>
-	    </p>
+		<label for="input_number_1">Мальчик</label>
 	</p>
 	<p>
-		<input type="radio" name="gender" value="Не определился" id="input number Не определился">
-	    <p>
-		<label for="input number Не определился">Не определился</label>
-	    </p>
+		<input type="radio" name="gender" value="Девочка" id="input_number_2">
+	</p>
+	<p>
+		<label for="input_number_2">Девочка</label>
+	</p>
+	<p>
+		<input type="radio" name="gender" value="Не определился" id="input_number_3">
+	</p>
+	<p>
+		<label for="input_number_3">Не определился</label>
 	</p>
 	<p>
 		<label for="message-textarea">Сообщение</label>
-	    <p>
+	</p>	
+	<p>
 		<textarea  id="message-textarea" cols="30" rows="20"></textarea>
-	    </p>	
 	</p>
 	<p>
-		<button>Отправить</button>
+		<input type="submit" value="Отправить">
 	</p>
 </form>
 </body>
