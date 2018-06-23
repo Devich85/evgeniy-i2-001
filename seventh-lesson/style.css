@@ -1,0 +1,25 @@
+.website {
+	background-color:#0366d6;
+	text-decoration: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	color: #fff;
+
+
+}
+
+.active {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+a:link {
+	justify-content: flex-end;
+	text-decoration: none;
+	color: #fff;
+	
+}
